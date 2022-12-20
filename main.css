@@ -1,0 +1,29 @@
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+header {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.pokemons-container {
+    display: grid;
+    width: 60%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.pokemon {
+    border: 2px solid red;
+    padding: 1px;
+    background-color: rgba(198, 148, 148, 0.564);
+    text-transform: capitalize;
+}
+
+.pokemon img {
+    width: 60%;
+    height: 60%;
+}
